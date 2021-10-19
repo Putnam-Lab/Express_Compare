@@ -59,7 +59,6 @@ downsampled bam read number
 ## output 
 bam file name | number of reads 
 ------------- | ---------------
-
 1041.bam | 31204984
 1041.downsampled.bam | 6238951
 1101.bam | 46211600
@@ -109,7 +108,8 @@ samtools view -c $file
 done
 
 ##record reads in each .downsampled.bam file
-downsampled bam name | number of reads 
+downsampled bam name | number of reads
+---------------------| ---------------
 1041.downsampled.bam | 6238951
 1101.downsampled.bam | 6007810
 1471.downsampled.bam | 5904109
